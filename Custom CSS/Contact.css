@@ -1,0 +1,172 @@
+/* Reset */
+body {
+  /* margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Serif", serif;
+  background-color: white; */
+    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  background-color: white;
+  color: #222;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #222, #555);
+  height: 70px;
+  color: white;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffd700;
+}
+
+
+/* Contact Title */
+.Contact {
+  text-align: center;
+  padding: 25px;
+}
+
+.Contact h1 {
+  font-size: 2.5rem;
+  color: #222;
+}
+
+/* Contact Form */
+.contact-me {
+  margin: 40px auto;
+  width: 520px;
+  background: #fff;
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 1px 5px 10px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-me label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.contact-me input,
+.contact-me select,
+.contact-me textarea,
+.contact-me button {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+/* Button */
+.contact-me button {
+  background: #222;
+  color: white;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-me button:hover {
+  background: #ff9800;
+}
+
+/* Location Icons */
+.location {
+  padding: 20px;
+  margin: 5px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.location img {
+  border: 1px solid grey;
+  border-radius: 50%;
+  padding: 10px;
+  height: 70px;
+  width: 70px;
+  transition: transform 0.3s ease;
+  margin: 6px 0;
+}
+
+.location img:hover {
+  transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(90deg, #222, #555);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+footer #logo-pg {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+/* .footer-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0;
+} */
+
+.contact-details p {
+  margin: 10px 0;
+  font-size: 14px;
+
+}
+
+.social-icons {
+  margin: 15px 0;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ff9800;
+}
+
+@media (max-width: 767px)
+{
+  .contact-me{
+    width: auto;
+    box-sizing: border-box;
+    
+  }
+}
+.footer-copy {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #ccc;
+}

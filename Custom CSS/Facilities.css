@@ -1,0 +1,222 @@
+/* Reset */
+body {
+    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  background-color: white;
+  color: #222;
+}
+
+/* Navbar */
+.navbar { 
+  background: linear-gradient(90deg, #222, #555);
+  height: 70px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.navbar h1 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  /* margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  position: relative; */
+    margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+/* .nav-links a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #00bcd4;
+  left: 0;
+  bottom: -4px;
+  transition: width 0.3s ease;
+}  */
+
+.nav-links a:hover {
+  color: #ffd700;
+}
+
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+/* Sections */
+section {
+  height: 100vh;
+  padding-top: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  animation: fadeIn 2s ease-in-out;
+}
+section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Slideshows */
+.slideshow {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  margin: auto;
+  overflow: hidden;
+}
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+}
+.slide img {
+  width: 250px;
+  height: 200px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 21px;
+}
+h4 {
+  font-size: 24px;
+}
+
+/* === Food Animations === */
+.breakfast { animation: breakfastAnim 9s infinite; }
+.lunch     { animation: lunchAnim 9s infinite; }
+.dinner    { animation: dinnerAnim 9s infinite; }
+
+@keyframes breakfastAnim {
+  0% { opacity: 0; transform: translateY(-100%); }
+  5%,30% { opacity: 1; transform: translateY(0); }
+  33% { opacity: 0; }
+}
+@keyframes lunchAnim {
+  0%,33% { opacity: 0; transform: translateX(-100%); }
+  38%,63% { opacity: 1; transform: translateX(0); }
+  66% { opacity: 0; }
+}
+@keyframes dinnerAnim {
+  0%,66% { opacity: 0; transform: translateX(100%); }
+  71%,96% { opacity: 1; transform: translateX(0); }
+  100% { opacity: 0; }
+}
+
+/* === Wi-Fi Animations === */
+.wifi1 { animation: wifi1Anim 9s infinite; }
+.wifi2 { animation: wifi2Anim 9s infinite; }
+.wifi3 { animation: wifi3Anim 9s infinite; }
+
+@keyframes wifi1Anim {
+  0% { opacity: 0; transform: translateY(-100%); }
+  5%,30% { opacity: 1; transform: translateY(0); }
+  33% { opacity: 0; }
+}
+@keyframes wifi2Anim {
+  0%,33% { opacity: 0; transform: translateX(-100%); }
+  38%,63% { opacity: 1; transform: translateX(0); }
+  66% { opacity: 0; }
+}
+@keyframes wifi3Anim {
+  0%,66% { opacity: 0; transform: translateX(100%); }
+  71%,96% { opacity: 1; transform: translateX(0); }
+  100% { opacity: 0; }
+}
+
+/* === Laundry Animations === */
+.laundry1 { animation: laundry1Anim 6s infinite; }
+.laundry2 { animation: laundry2Anim 6s infinite; }
+
+@keyframes laundry1Anim {
+  0% { opacity: 0; transform: translateY(-100%); }
+  5%,45% { opacity: 1; transform: translateY(0); }
+  50% { opacity: 0; }
+}
+@keyframes laundry2Anim {
+  0%,50% { opacity: 0; transform: translateX(100%); }
+  55%,95% { opacity: 1; transform: translateX(0); }
+  100% { opacity: 0; }
+}
+
+/* === Security Animation (single image) === */
+.security1 {
+  animation: securityAnim 4s infinite;
+}
+@keyframes securityAnim {
+  0% { opacity: 0; transform: scale(0.8); }
+  20%,80% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; }
+}
+
+/* === Gym Animations === */
+.gym1 { animation: gym1Anim 9s infinite; }
+.gym2 { animation: gym2Anim 9s infinite; }
+.gym3 { animation: gym3Anim 9s infinite; }
+
+@keyframes gym1Anim {
+  0% { opacity: 0; transform: translateY(-100%); }
+  5%,30% { opacity: 1; transform: translateY(0); }
+  33% { opacity: 0; }
+}
+@keyframes gym2Anim {
+  0%,33% { opacity: 0; transform: translateX(-100%); }
+  38%,63% { opacity: 1; transform: translateX(0); }
+  66% { opacity: 0; }
+}
+@keyframes gym3Anim {
+  0%,66% { opacity: 0; transform: translateX(100%); }
+  71%,96% { opacity: 1; transform: translateX(0); }
+  100% { opacity: 0; }
+}
+
+/* Fade-in for section */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(50px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+
+footer {
+  background-color: black;
+  height: 70px;
+  color: white;
+  text-align: center;
+  margin-top: 70px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

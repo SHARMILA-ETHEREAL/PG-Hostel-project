@@ -1,0 +1,145 @@
+/* .pg-imgslider img:first-child {
+  opacity: 1;             /* visible immediately */
+  /* animation-delay: 0s;    /* start first in cycle */
+/* } */ 
+
+
+
+/* body{
+    margin:0;
+    box-sizing: border-box;
+    border-radius: none;
+    border:none;
+    padding: 0;
+    font-family: "Questrial", sans-serif;
+  font-weight: 550;
+  font-style: normal;
+
+ 
+}
+.navbar{ 
+    background-color:black;
+    width: auto;
+    height:50px;
+    color: white;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-links a{
+    margin: 15px;
+  text-decoration: none;
+  color: white;
+}
+.pg-imgslider{
+
+display: flex;
+}
+
+.pg1{
+display: none;
+
+}
+.pg2{
+display: none;
+}
+.pg3{
+display:none
+}
+.pg1{
+  animation-name: pgslides;
+  display: block;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-direction: alternate-reverse;
+}
+.pg2{
+  animation-name: pgslides;
+  display: block;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-direction: alternate-reverse;
+}
+.pg3{
+  animation-name: pgslides;
+  display: block;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes pgslides{
+
+0%{
+  left:100%;
+
+}
+
+50%{left:50%;}
+
+100%{
+  left:0%;
+}
+}
+ */
+
+ /*HOME PAGE END*/
+
+
+
+
+ /* NAVBAR BODY STYLE MISTAKES FOR PG OLD CODE*/
+ 
+ /* body {
+    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  /* font-family: "Questrial", sans-serif;
+  font-weight: 500; */
+  /* background-color: white;
+  /* background-color: rgb(219, 219, 219); */
+    /* font-family: "IBM Plex Serif", serif;
+  font-weight: 700;
+  font-style: normal; */
+
+  /* margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  scroll-behavior: smooth; */
+/* }
+
+/* Navbar */
+/* .navbar {
+     background-color: black;
+  height: 70px;
+  color: white;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;  */
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: #222;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10; */
+/* }
+
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}  */ 
+
+/* General Page */
